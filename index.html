@@ -1,25 +1,31 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Owyhee Tech — Your Strategic IT Partner for Infrastructure, Security & Support</title>
-<meta name="description" content="Owyhee Tech helps small and mid-sized businesses plan, deploy, and maintain reliable IT infrastructure, cybersecurity, and backup systems — backed by responsive, hands-on support." />
-<meta name="theme-color" content="#0a1f3d" />
-<meta property="og:title" content="Owyhee Tech — Strategic IT Partner" />
-<meta property="og:description" content="Reliable infrastructure, proactive security, and long-term support from a trusted IT partner." />
-<meta property="og:type" content="website" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" />
-<link rel="stylesheet" href="assets/css/styles.css" />
-<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230a1f3d'/><path d='M10 16l4 4 8-8' stroke='%2314b8a6' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Owyhee Tech — Strategic IT Services & Managed Support</title>
+  <meta name="description" content="Reliable IT infrastructure, cybersecurity, backup, and managed support for growing businesses. A trusted IT partner — not just a vendor." />
+  <meta name="theme-color" content="#0a1f3d" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Owyhee Tech — Strategic IT Partner" />
+  <meta property="og:description" content="Reliable infrastructure, proactive security, and long-term support from a trusted IT partner." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230a1f3d'/><path d='M10 16l4 4 8-8' stroke='%2314b8a6' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
 </head>
 <body>
 
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ==========================================================================
+     Header / Navigation
+========================================================================== -->
 <header class="nav" aria-label="Primary">
   <div class="container nav-inner">
-    <a href="index.html" class="brand" aria-label="Owyhee Tech home">
+    <a href="/" class="brand" aria-label="Owyhee Tech home">
       <span class="brand-mark" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l5 5L20 6"/></svg>
       </span>
@@ -28,378 +34,357 @@
         <small>IT Partner</small>
       </span>
     </a>
-    <nav>
+
+    <nav aria-label="Main">
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#process">Process</a></li>
       </ul>
     </nav>
-    <a href="contact.html" class="btn btn-primary nav-cta">
+
+    <a href="#contact" class="btn btn-primary nav-cta">
       Schedule a Consultation
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
     </a>
-    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
     </button>
   </div>
 </header>
 
-<main>
+<main id="main">
 
-<!-- HERO -->
-<section class="hero">
-  <div class="container hero-inner">
-    <span class="eyebrow reveal">Strategic IT, Built for Growth</span>
-    <h1 class="reveal" data-delay="1">
-      Technology that keeps your business <span class="grad">running, secure, and ready to scale</span>.
-    </h1>
-    <p class="lead reveal" data-delay="2">
-      We plan, deploy, and maintain the infrastructure, security, and support systems behind modern businesses — so your team can focus on the work that matters.
-    </p>
-    <div class="hero-ctas reveal" data-delay="3">
-      <a href="contact.html" class="btn btn-accent btn-lg">
-        Schedule a Consultation
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
-      </a>
-      <a href="services.html" class="btn btn-ghost btn-lg">Explore Services</a>
-    </div>
-
-    <div class="hero-trust reveal" data-delay="4">
-      <span><strong>20+ years</strong> of combined IT experience</span>
-      <span><strong>Vendor-agnostic</strong> recommendations</span>
-      <span><strong>Local, responsive</strong> support</span>
-      <span><strong>End-to-end</strong> implementation</span>
-    </div>
-  </div>
-</section>
-
-<!-- CORE VALUE PROPOSITION -->
-<section class="section">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow">Why businesses choose us</span>
-      <h2>A partner who owns the outcome — not just the order.</h2>
-      <p>We design IT the way we'd run our own business: practical, right-sized, and built to keep working long after go-live.</p>
-    </div>
-
-    <div class="grid grid-4">
-      <div class="card pillar reveal">
-        <div class="icon-badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="8" rx="2"/><rect x="3" y="14" width="18" height="6" rx="2"/><path d="M7 8h.01M7 17h.01"/></svg>
-        </div>
-        <h3>Reliable Infrastructure</h3>
-        <p>Servers, storage, and networks designed for uptime — sized for today and built to grow with you.</p>
-      </div>
-      <div class="card pillar reveal" data-delay="1">
-        <div class="icon-badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.2 8.3-8 9-4.8-.7-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
-        </div>
-        <h3>Security First</h3>
-        <p>Layered protection and clear policies that reduce risk without getting in your team's way.</p>
-      </div>
-      <div class="card pillar reveal" data-delay="2">
-        <div class="icon-badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h10"/><path d="M18 17l2 2 3-3"/></svg>
-        </div>
-        <h3>End-to-End Service</h3>
-        <p>From assessment to rollout, we handle procurement, installation, and every step in between.</p>
-      </div>
-      <div class="card pillar reveal" data-delay="3">
-        <div class="icon-badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-3-6.7"/><path d="M21 4v5h-5"/></svg>
-        </div>
-        <h3>Long-Term Support</h3>
-        <p>Proactive monitoring, regular reviews, and a team that picks up the phone when things matter.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICES OVERVIEW -->
-<section class="section" style="background: var(--bg-soft);">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow">What we do</span>
-      <h2>Complete IT services under one accountable team.</h2>
-      <p>Whether you're refreshing a server room, shoring up cybersecurity, or planning your cloud strategy — we cover the full stack.</p>
-    </div>
-
-    <div class="grid grid-3">
-      <div class="card reveal">
-        <div class="icon-badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01M11 7h6M11 17h6"/></svg>
-        </div>
-        <h3>IT Infrastructure &amp; Servers</h3>
-        <p>Right-sized servers, storage, and virtualization — deployed, documented, and built to last.</p>
-        <a class="card-link" href="services.html#infrastructure">Learn more
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+  <!-- ========================================================================
+       Hero
+  ======================================================================== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container hero-inner">
+      <span class="eyebrow reveal">Strategic IT, Built for Growth</span>
+      <h1 id="hero-title" class="reveal" data-delay="1">
+        Technology that keeps your business
+        <span class="grad">running, secure, and ready to scale</span>.
+      </h1>
+      <p class="lead reveal" data-delay="2">
+        We plan, deploy, and maintain the infrastructure, security, and support behind modern businesses — so your team can focus on the work that matters.
+      </p>
+      <div class="hero-ctas reveal" data-delay="3">
+        <a href="#contact" class="btn btn-accent btn-lg">
+          Schedule a Consultation
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
         </a>
+        <a href="#services" class="btn btn-ghost btn-lg">Explore Services</a>
       </div>
 
-      <div class="card reveal" data-delay="1">
-        <div class="icon-badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-4-7.5"/><path d="M21 4v5h-5"/><path d="M9 12l2 2 4-4"/></svg>
-        </div>
-        <h3>Backup &amp; Disaster Recovery</h3>
-        <p>Tested backups and recovery plans that get your business back online fast — not days later.</p>
-        <a class="card-link" href="services.html#backup">Learn more
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-
-      <div class="card reveal" data-delay="2">
-        <div class="icon-badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.2 8.3-8 9-4.8-.7-8-4.5-8-9V6l8-3z"/></svg>
-        </div>
-        <h3>Cybersecurity</h3>
-        <p>Endpoint, network, and identity protection with policies your team can actually follow.</p>
-        <a class="card-link" href="services.html#security">Learn more
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-
-      <div class="card reveal">
-        <div class="icon-badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c3 3.5 3 14.5 0 18"/><path d="M12 3c-3 3.5-3 14.5 0 18"/></svg>
-        </div>
-        <h3>Networking &amp; Hardware</h3>
-        <p>Wired and wireless networks engineered for performance, security, and easy management.</p>
-        <a class="card-link" href="services.html#networking">Learn more
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-
-      <div class="card reveal" data-delay="1">
-        <div class="icon-badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18a5 5 0 01-.9-9.9A7 7 0 0119 9.5a4.5 4.5 0 01-1 8.9"/><path d="M12 12v7"/><path d="M9 16l3-3 3 3"/></svg>
-        </div>
-        <h3>Colocation &amp; Cloud</h3>
-        <p>Hybrid architectures that blend the right mix of on-prem, colocation, and cloud for your workload.</p>
-        <a class="card-link" href="services.html#cloud">Learn more
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-
-      <div class="card reveal" data-delay="2">
-        <div class="icon-badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6 6 1-4.5 4.3 1 6.2L12 16.8 6.5 19.5l1-6.2L3 9l6-1 3-6z"/></svg>
-        </div>
-        <h3>Managed IT Services</h3>
-        <p>Ongoing monitoring, patching, and helpdesk — a dependable IT function without the overhead.</p>
-        <a class="card-link" href="services.html#managed">Learn more
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
-        </a>
+      <div class="hero-trust reveal" data-delay="4">
+        <span><strong>20+ years</strong> of combined experience</span>
+        <span><strong>Vendor-agnostic</strong> recommendations</span>
+        <span><strong>Local, responsive</strong> support</span>
+        <span><strong>End-to-end</strong> implementation</span>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- WHY OWYHEE TECH -->
-<section class="section">
-  <div class="container">
-    <div class="feature-row">
-      <div class="reveal">
-        <span class="eyebrow">Why Owyhee Tech</span>
-        <h2>A trusted technology partner — not just another vendor.</h2>
-        <p class="lead">
-          We work the way a good in-house team would: understanding your business first, recommending what's actually right, and sticking around after the install.
-        </p>
-        <ul class="feature-list">
-          <li>
-            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-9"/></svg></span>
-            <div>
-              <h4>Service-first approach</h4>
-              <p>Relationships beat transactions. We're measured by outcomes, not order volume.</p>
-            </div>
-          </li>
-          <li>
-            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-9"/></svg></span>
-            <div>
-              <h4>Vendor-agnostic recommendations</h4>
-              <p>We pick the right tool for the job — not whatever has the highest margin this quarter.</p>
-            </div>
-          </li>
-          <li>
-            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-9"/></svg></span>
-            <div>
-              <h4>Local, responsive support</h4>
-              <p>Talk to a real engineer who knows your environment — not a rotating ticket queue.</p>
-            </div>
-          </li>
-          <li>
-            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-9"/></svg></span>
-            <div>
-              <h4>Implementation + ongoing management</h4>
-              <p>We don't hand you a box and disappear. We deploy, document, and maintain.</p>
-            </div>
-          </li>
-        </ul>
+  <!-- ========================================================================
+       Services Overview
+  ======================================================================== -->
+  <section id="services" class="section" aria-labelledby="services-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">What we do</span>
+        <h2 id="services-title">Complete IT services under one accountable team.</h2>
+        <p>Whether you're refreshing a server room, shoring up cybersecurity, or planning your cloud strategy — we cover the full stack.</p>
       </div>
 
-      <div class="visual reveal" data-delay="2" aria-hidden="true">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;position:relative;">
-          <div>
-            <div style="font-size:.75rem;color:rgba(255,255,255,0.65);text-transform:uppercase;letter-spacing:.08em;">Operations Overview</div>
-            <div style="font-family:'Manrope',sans-serif;font-weight:700;color:#fff;font-size:1.1rem;">Your environment, at a glance</div>
+      <div class="grid grid-3">
+        <article class="card reveal">
+          <div class="icon-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01M11 7h6M11 17h6"/></svg>
           </div>
-          <span class="visual-status">All systems healthy</span>
-        </div>
-        <div class="visual-grid">
-          <div class="visual-tile">
-            <div class="metric">99.98%</div>
-            <div class="label">Uptime (30d)</div>
-          </div>
-          <div class="visual-tile">
-            <div class="metric">142</div>
-            <div class="label">Endpoints managed</div>
-          </div>
-          <div class="visual-tile">
-            <div class="metric">0</div>
-            <div class="label">Critical alerts</div>
-          </div>
-          <div class="visual-tile wide">
-            <div class="icon-badge">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-4-7.5"/><path d="M21 4v5h-5"/><path d="M9 12l2 2 4-4"/></svg>
-            </div>
-            <div>
-              <div style="color:#fff;font-weight:600;font-family:'Manrope',sans-serif;">Backups verified — last 24h</div>
-              <p class="sub">Automated tests confirmed recovery across 3 sites.</p>
-            </div>
-          </div>
-          <div class="visual-tile wide">
-            <div class="icon-badge">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.2 8.3-8 9-4.8-.7-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
-            </div>
-            <div>
-              <div style="color:#fff;font-weight:600;font-family:'Manrope',sans-serif;">Security posture: Strong</div>
-              <p class="sub">Patches current · MFA enforced · EDR active</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- PROCESS -->
-<section class="section" style="background: var(--bg-soft);">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow">How we work</span>
-      <h2>A clear, predictable path from idea to uptime.</h2>
-      <p>Every engagement follows the same four steps — so you always know what's next and what to expect.</p>
-    </div>
-
-    <div class="process reveal">
-      <div class="process-step">
-        <div class="process-num">01</div>
-        <h3>Assess</h3>
-        <p>We take time to understand your business, current environment, and goals before recommending anything.</p>
-      </div>
-      <div class="process-step">
-        <div class="process-num">02</div>
-        <h3>Design</h3>
-        <p>A right-sized solution with clear scope, timeline, and pricing — vendor-agnostic and built for your reality.</p>
-      </div>
-      <div class="process-step">
-        <div class="process-num">03</div>
-        <h3>Implement</h3>
-        <p>Hands-on procurement, installation, and configuration — coordinated to minimize business disruption.</p>
-      </div>
-      <div class="process-step">
-        <div class="process-num">04</div>
-        <h3>Support</h3>
-        <p>Proactive monitoring, patching, and strategic reviews. A real team on call when you need us.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIALS / TRUST -->
-<section class="section">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow">Built on trust</span>
-      <h2>Organizations that rely on us every day.</h2>
-      <p>From professional services firms to regional operations, we've been the team behind the scenes keeping things running.</p>
-    </div>
-
-    <div class="grid grid-3">
-      <div class="testimonial reveal">
-        <div class="stars" aria-label="5 out of 5 stars">★ ★ ★ ★ ★</div>
-        <p>"They replaced our entire server and network infrastructure over a weekend and we came in Monday without a single hiccup. That's not normal — that's preparation."</p>
-        <div class="who">
-          <div class="avatar" aria-hidden="true">JM</div>
-          <div>
-            <div class="name">J. Martinez</div>
-            <div class="role">Operations Director, Regional Manufacturer</div>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial reveal" data-delay="1">
-        <div class="stars" aria-label="5 out of 5 stars">★ ★ ★ ★ ★</div>
-        <p>"What I appreciate most is the honesty. They'll tell me when something isn't worth the money, and that's why I keep calling them first."</p>
-        <div class="who">
-          <div class="avatar" aria-hidden="true">SL</div>
-          <div>
-            <div class="name">S. Larson</div>
-            <div class="role">Managing Partner, Professional Services</div>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial reveal" data-delay="2">
-        <div class="stars" aria-label="5 out of 5 stars">★ ★ ★ ★ ★</div>
-        <p>"After a ransomware scare at a peer company, they walked us through an actual plan, not a sales pitch. We sleep a lot better now."</p>
-        <div class="who">
-          <div class="avatar" aria-hidden="true">RK</div>
-          <div>
-            <div class="name">R. Kim</div>
-            <div class="role">Controller, Mid-size Nonprofit</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="industries reveal">
-      <div class="industry">Healthcare</div>
-      <div class="industry">Manufacturing</div>
-      <div class="industry">Professional Services</div>
-      <div class="industry">Construction</div>
-      <div class="industry">Nonprofit</div>
-      <div class="industry">Public Sector</div>
-    </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="section-sm">
-  <div class="container">
-    <div class="cta-band reveal">
-      <div class="cta-band-inner">
-        <div>
-          <h2>Let's build an IT foundation you can count on.</h2>
-          <p>Book a no-pressure consultation. We'll review your environment and share clear, honest recommendations.</p>
-        </div>
-        <div class="cta-band-actions">
-          <a href="contact.html" class="btn btn-accent btn-lg">
-            Schedule a Consultation
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+          <h3>IT Infrastructure &amp; Servers</h3>
+          <p>Right-sized servers, storage, and virtualization — deployed, documented, and built to last.</p>
+          <a class="card-link" href="#contact">Learn more
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
           </a>
-          <a href="services.html" class="btn btn-light btn-lg">See Services</a>
+        </article>
+
+        <article class="card reveal" data-delay="1">
+          <div class="icon-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-4-7.5"/><path d="M21 4v5h-5"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3>Backup &amp; Disaster Recovery</h3>
+          <p>Tested backups and recovery plans that get your business back online fast — not days later.</p>
+          <a class="card-link" href="#contact">Learn more
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="card reveal" data-delay="2">
+          <div class="icon-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.2 8.3-8 9-4.8-.7-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3>Cybersecurity</h3>
+          <p>Endpoint, network, and identity protection with policies your team can actually follow.</p>
+          <a class="card-link" href="#contact">Learn more
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="card reveal">
+          <div class="icon-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c3 3.5 3 14.5 0 18"/><path d="M12 3c-3 3.5-3 14.5 0 18"/></svg>
+          </div>
+          <h3>Networking &amp; Hardware</h3>
+          <p>Wired and wireless networks engineered for performance, security, and easy management.</p>
+          <a class="card-link" href="#contact">Learn more
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="card reveal" data-delay="1">
+          <div class="icon-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18a5 5 0 01-.9-9.9A7 7 0 0119 9.5a4.5 4.5 0 01-1 8.9"/><path d="M12 12v7"/><path d="M9 16l3-3 3 3"/></svg>
+          </div>
+          <h3>Colocation &amp; Cloud</h3>
+          <p>Hybrid architectures that blend the right mix of on-prem, colocation, and cloud for your workload.</p>
+          <a class="card-link" href="#contact">Learn more
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="card reveal" data-delay="2">
+          <div class="icon-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6 6 1-4.5 4.3 1 6.2L12 16.8 6.5 19.5l1-6.2L3 9l6-1 3-6z"/></svg>
+          </div>
+          <h3>Managed IT Services</h3>
+          <p>Ongoing monitoring, patching, and helpdesk — a dependable IT function without the overhead.</p>
+          <a class="card-link" href="#contact">Learn more
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Why Choose Us
+  ======================================================================== -->
+  <section id="why" class="section section-soft" aria-labelledby="why-title">
+    <div class="container">
+      <div class="feature-row">
+        <div class="reveal">
+          <span class="eyebrow">Why Owyhee Tech</span>
+          <h2 id="why-title">A trusted technology partner — not just another vendor.</h2>
+          <p class="lead">
+            We work the way a good in-house team would: understanding your business first, recommending what's actually right, and sticking around after the install.
+          </p>
+          <ul class="feature-list">
+            <li>
+              <span class="check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-9"/></svg>
+              </span>
+              <div>
+                <h4>Service-first approach</h4>
+                <p>Relationships beat transactions. We're measured by outcomes, not order volume.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-9"/></svg>
+              </span>
+              <div>
+                <h4>Vendor-agnostic recommendations</h4>
+                <p>We pick the right tool for the job — not whatever has the highest margin this quarter.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-9"/></svg>
+              </span>
+              <div>
+                <h4>Local, responsive support</h4>
+                <p>Talk to a real engineer who knows your environment — not a rotating ticket queue.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-9"/></svg>
+              </span>
+              <div>
+                <h4>Implementation + ongoing management</h4>
+                <p>We don't hand you a box and disappear. We deploy, document, and maintain.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="visual reveal" data-delay="2" aria-hidden="true">
+          <div class="visual-header">
+            <div>
+              <div class="visual-header-label">Operations Overview</div>
+              <div class="visual-header-title">Your environment, at a glance</div>
+            </div>
+            <span class="visual-status">All systems healthy</span>
+          </div>
+          <div class="visual-grid">
+            <div class="visual-tile">
+              <div class="metric">99.98%</div>
+              <div class="label">Uptime (30d)</div>
+            </div>
+            <div class="visual-tile">
+              <div class="metric">142</div>
+              <div class="label">Endpoints managed</div>
+            </div>
+            <div class="visual-tile">
+              <div class="metric">0</div>
+              <div class="label">Critical alerts</div>
+            </div>
+            <div class="visual-tile wide">
+              <div class="icon-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-4-7.5"/><path d="M21 4v5h-5"/><path d="M9 12l2 2 4-4"/></svg>
+              </div>
+              <div>
+                <div class="headline">Backups verified — last 24h</div>
+                <p class="sub">Automated tests confirmed recovery across 3 sites.</p>
+              </div>
+            </div>
+            <div class="visual-tile wide">
+              <div class="icon-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.2 8.3-8 9-4.8-.7-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+              </div>
+              <div>
+                <div class="headline">Security posture: Strong</div>
+                <p class="sub">Patches current · MFA enforced · EDR active</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Process
+  ======================================================================== -->
+  <section id="process" class="section" aria-labelledby="process-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">How we work</span>
+        <h2 id="process-title">A clear, predictable path from idea to uptime.</h2>
+        <p>Every engagement follows the same four steps — so you always know what's next and what to expect.</p>
+      </div>
+
+      <ol class="process reveal" aria-label="Our four-step process">
+        <li class="process-step">
+          <div class="process-num" aria-hidden="true">01</div>
+          <h3>Assess</h3>
+          <p>We take time to understand your business, current environment, and goals before recommending anything.</p>
+        </li>
+        <li class="process-step">
+          <div class="process-num" aria-hidden="true">02</div>
+          <h3>Design</h3>
+          <p>A right-sized solution with clear scope, timeline, and pricing — vendor-agnostic and built for your reality.</p>
+        </li>
+        <li class="process-step">
+          <div class="process-num" aria-hidden="true">03</div>
+          <h3>Implement</h3>
+          <p>Hands-on procurement, installation, and configuration — coordinated to minimize business disruption.</p>
+        </li>
+        <li class="process-step">
+          <div class="process-num" aria-hidden="true">04</div>
+          <h3>Support</h3>
+          <p>Proactive monitoring, patching, and strategic reviews. A real team on call when you need us.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Testimonials
+  ======================================================================== -->
+  <section class="section section-soft" aria-labelledby="testimonials-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Built on trust</span>
+        <h2 id="testimonials-title">Organizations that rely on us every day.</h2>
+        <p>From professional services firms to regional operations, we've been the team behind the scenes keeping things running.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <figure class="testimonial reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★ ★ ★ ★ ★</div>
+          <blockquote><p>"They replaced our entire server and network infrastructure over a weekend, and we came in Monday without a single hiccup. That's not luck — that's preparation."</p></blockquote>
+          <figcaption class="who">
+            <div class="avatar" aria-hidden="true">JM</div>
+            <div>
+              <div class="name">J. Martinez</div>
+              <div class="role">Operations Director, Regional Manufacturer</div>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial reveal" data-delay="1">
+          <div class="stars" aria-label="5 out of 5 stars">★ ★ ★ ★ ★</div>
+          <blockquote><p>"What I appreciate most is the honesty. They'll tell me when something isn't worth the money — and that's why I keep calling them first."</p></blockquote>
+          <figcaption class="who">
+            <div class="avatar" aria-hidden="true">SL</div>
+            <div>
+              <div class="name">S. Larson</div>
+              <div class="role">Managing Partner, Professional Services</div>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial reveal" data-delay="2">
+          <div class="stars" aria-label="5 out of 5 stars">★ ★ ★ ★ ★</div>
+          <blockquote><p>"After a ransomware scare at a peer company, they walked us through an actual plan — not a sales pitch. We sleep a lot better now."</p></blockquote>
+          <figcaption class="who">
+            <div class="avatar" aria-hidden="true">RK</div>
+            <div>
+              <div class="name">R. Kim</div>
+              <div class="role">Controller, Regional Nonprofit</div>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       CTA
+  ======================================================================== -->
+  <section id="contact" class="section" aria-labelledby="cta-title">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div class="cta-band-inner">
+          <div>
+            <h2 id="cta-title">Let's build an IT foundation you can count on.</h2>
+            <p>Book a no-pressure consultation. We'll review your environment and share clear, honest recommendations.</p>
+          </div>
+          <div class="cta-band-actions">
+            <a href="mailto:hello@owyhee-tech.com" class="btn btn-accent btn-lg">
+              Schedule a Consultation
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#services" class="btn btn-light btn-lg">See Services</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 </main>
 
-<footer class="footer">
+<!-- ==========================================================================
+     Footer
+========================================================================== -->
+<footer class="footer" aria-labelledby="footer-heading">
+  <h2 id="footer-heading" class="sr-only" style="position:absolute;left:-9999px;">Site footer</h2>
   <div class="container footer-inner">
     <div>
-      <a href="index.html" class="brand">
+      <a href="/" class="brand">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l5 5L20 6"/></svg>
         </span>
@@ -410,33 +395,37 @@
       </a>
       <p class="footer-about">Strategic IT services for growing businesses — infrastructure, security, backup, and support from one accountable team.</p>
     </div>
+
     <div>
       <h4>Services</h4>
       <ul>
-        <li><a href="services.html#infrastructure">Infrastructure &amp; Servers</a></li>
-        <li><a href="services.html#backup">Backup &amp; Recovery</a></li>
-        <li><a href="services.html#security">Cybersecurity</a></li>
-        <li><a href="services.html#networking">Networking</a></li>
-        <li><a href="services.html#cloud">Colocation &amp; Cloud</a></li>
-        <li><a href="services.html#managed">Managed IT</a></li>
+        <li><a href="#services">Infrastructure &amp; Servers</a></li>
+        <li><a href="#services">Backup &amp; Recovery</a></li>
+        <li><a href="#services">Cybersecurity</a></li>
+        <li><a href="#services">Networking</a></li>
+        <li><a href="#services">Colocation &amp; Cloud</a></li>
+        <li><a href="#services">Managed IT</a></li>
       </ul>
     </div>
+
     <div>
       <h4>Company</h4>
       <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
+
     <div>
       <h4>Get in touch</h4>
       <ul>
-        <li><a href="contact.html">Schedule a consultation</a></li>
+        <li><a href="#contact">Schedule a consultation</a></li>
         <li><a href="mailto:hello@owyhee-tech.com">hello@owyhee-tech.com</a></li>
       </ul>
     </div>
   </div>
+
   <div class="container footer-bottom">
     <span>© <span id="year">2026</span> Owyhee Tech. All rights reserved.</span>
     <span>Built for reliability. Designed for trust.</span>
